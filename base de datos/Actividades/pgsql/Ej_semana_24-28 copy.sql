@@ -10,6 +10,12 @@
 DO $$
 DECLARE 
    customer_name 
+BEGIN 
+   SELECT first_name INTO customer_name
+   FROM customer
+   WHERE customer_id = 5;
+   RAISE NOTICE 'El nombre del cliente es %', customer_name;
+END $$; 
 
 -- Ejercicio 2: Uso de %TYPE para Copiar Tipos de Datos
 -- Usar %TYPE para definir variables basadas en columnas de una tabla.
@@ -108,4 +114,3 @@ DECLARE
 
 
     -- Verificar si la edad es menor a 18
-
