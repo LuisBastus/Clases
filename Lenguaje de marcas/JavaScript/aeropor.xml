@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vols">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vol" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="numero_vol" type="xs:string"/>
+                            <xs:element name="num_passatgers" type="xs:integer"/>
+                            <xs:element name="avio" type="xs:string"/>
+                            <xs:element name="ruta">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="aeroport_origen" type="xs:string"/>
+                                        <xs:element name="aeroport_desti" type="xs:string"/>
+                                        <xs:element name="data_sortida" type="xs:date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="pilots">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="capita" type="xs:string"/>
+                                        <xs:element name="copilot" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="tripulacio">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cap_cabina" type="xs:string"/>
+                                        <xs:element name="auxiliars" type="xs:string" maxOccurs="unbounded"/>
+                                        <xs:element name="hostesses" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

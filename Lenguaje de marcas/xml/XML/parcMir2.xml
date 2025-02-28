@@ -1,0 +1,45 @@
+ <!-- Secció de restaurants del parc -->
+<restaurants>
+    <restaurant>
+        <zone>ESO</zone>
+        <name>La cuina de l’ESO</name>
+        <service>Taula i Autoservei</service>
+        <specialMenu>Infantil</specialMenu>
+    </restaurant>
+    <restaurant>
+        <zone>BATXILLERAT</zone>
+        <name>Aiguaesfera</name>
+        <service>Classes i Aigua</service>
+        <specialMenu>Taula Infantil</specialMenu>
+    </restaurant>
+    <restaurant>
+        <zone>BATXILLERAT</zone>
+        <name>Café de primera hora</name>
+        <service>Autoservei</service>
+        <specialMenu>Infantil</specialMenu>
+    </restaurant>
+    <restaurant>
+        <zone>GS</zone>
+        <name>The Iron student</name>
+        <service>Taula</service>
+        <specialMenu>Celíac i Infantil</specialMenu>
+    </restaurant>
+    <restaurant>
+        <zone>GS</zone>
+        <name>The new snack house</name>
+        <service>Autoservei</service>
+        <specialMenu>Celíac</specialMenu>
+    </restaurant>
+    <restaurant>
+        <zone>Profes</zone>
+        <name>Cantina del Mir</name>
+        <service>Taula</service>
+        <specialMenu>Celíac i Infantil</specialMenu>
+    </restaurant>
+    <restaurant>
+        <zone>Profes</zone>
+        <name>Un entrepà express</name>
+        <service>Autoservei</service>
+        <specialMenu>Celíac</specialMenu>
+    </restaurant>
+</restaurants>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Selección de Trabajador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        form div {
+            display: contents;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            grid-column: 1 / 3;
+        }
+        .checkbox-container {
+            grid-column: 1 / 3;
+            text-align: center;
+        }
+        .submit-container {
+            grid-column: 1 / 3;
+            text-align: center;
+        }
+        .submit-container input {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+        }
+        .submit-container input:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Seleccionar un Nuevo Trabajador</h2>
+        <form action="https://alumnat.cat/form" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+            </div>
+            <div>
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni" required>
+            </div>
+            <div>
+                <label for="color">Color Preferido:</label>
+                <input type="text" id="color" name="color" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="estudios">Estudios:</label>
+                <select id="estudios" name="estudios" required>
+                    <option value="ESO">ESO</option>
+                    <option value="Bachillerato">Bachillerato</option>
+                    <option value="FP">FP</option>
+                    <option value="Universidad">Universidad</option>
+                </select>
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <div>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre" required>
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" name="sexo" value="Mujer" required>
+                    <label for="mujer">Mujer</label>
+                </div>
+            </div>
+            <div>
+                <label for="explicacion">Explicación:</label>
+                <textarea id="explicacion" name="explicacion" rows="4" required></textarea>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="privacidad" name="privacidad" required>
+                <label for="privacidad">Acepto la política de privacidad de la empresa</label>
+            </div>
+            <div>
+                <label for="foto">Fotografía:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+            </div>
+            <div class="submit-container">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

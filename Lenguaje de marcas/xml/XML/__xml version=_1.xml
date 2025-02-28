@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf8">
+<Invent>
+<llibreria>
+	<llibre> <isbn="889089023">
+	<titol>El resplandor</titol>
+	<autor>
+	<nom>Stephen</nom>
+	<primer cognom>King</primer cognom>
+	</autor>	
+	</llibre>
+</llibreria>
+<compactes>
+	<cd>
+		<titol>Homenatge a Jon Secada</TITOL>
+		<autor>
+			<nom>Els Cabres</nom>
+			<nom>Pau Pol</nom>
+		</autor>
+	</cd ismn="90289023890">
+</conpactes>
+</invent>
+

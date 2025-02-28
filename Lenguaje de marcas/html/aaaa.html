@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Intereses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset bàsic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #222;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Cada slide ocupa el 100% del contenidor */
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+/* Controls del slider */
+input[name="slider-control"] {
+    display: none;
+}
+
+/* Navegació del slider */
+.slider-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider-navigation label {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0);
+}
+#slide2:checked ~ .slides {
+    transform: translateX(-100%);
+}
+#slide3:checked ~ .slides {
+    transform: translateX(-200%);
+}
+#slide4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+
+#slide1:checked ~ .slider-navigation label:nth-child(1),
+#slide2:checked ~ .slider-navigation label:nth-child(2),
+#slide3:checked ~ .slider-navigation label:nth-child(3),
+#slide4:checked ~ .slider-navigation label:nth-child(4) {
+    background-color: #222;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Galería de Intereses</h1>
+        <p>Explora algunas de mis pasiones: fútbol, deportes, videojuegos y música.</p>
+    </header>
+
+    <main>
+        <div class="slider">
+            <!-- Controles del slider -->
+            <input type="radio" id="slide1" name="slider-control" checked>
+            <input type="radio" id="slide2" name="slider-control">
+            <input type="radio" id="slide3" name="slider-control">
+            <input type="radio" id="slide4" name="slider-control">
+
+            <!-- Imágenes del slider -->
+            <div class="slides">
+                <div class="slide">
+                    <img src="imagenes2/futebol.jpg" alt="Fútbol">
+                </div>
+                <div class="slide">
+                    <img src="" alt="Deportes">
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1280x720?text=Videojuegos" alt="Videojuegos">
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1280x720?text=Música" alt="Música">
+                </div>
+            </div>
+
+            <!-- Botones de navegación -->
+            <div class="slider-navigation">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Galería de Intereses</p>
+    </footer>
+</body>
+</html>

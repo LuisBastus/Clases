@@ -1,0 +1,11 @@
+alumne {
+    text-align: center;
+}
+nom {
+    font-weight: bold;
+    font-family: tahoma;
+    color: blue;
+}
+cognom {
+    color: cyan;
+}

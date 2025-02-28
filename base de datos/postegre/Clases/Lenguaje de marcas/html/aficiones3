@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Carrusel de Imágenes</h1>
+        <p>Desliza para explorar las imágenes de mis intereses y aficiones.</p>
+    </header>
+    <main class="carousel-container">
+        <button class="carousel-btn prev-btn">&#10094;</button>
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="imagenes2/futebol.jpg" alt="Futbol">
+            </div>
+            <div class="carousel-item">
+                <img src="imagen2.jpg" alt="Videjuegos">
+            </div>
+            <div class="carousel-item">
+                <img src="imagen3.jpg" alt="Musica">
+            </div>
+            <div class="carousel-item">
+                <img src="imagen4.jpg" alt="Deporte">
+            </div>
+        </div>
+        <button class="carousel-btn next-btn">&#10095;</button>
+    </main>
+    <aside>
+        <p>"Este sitio web está en construcción. ¡Gracias por visitarlo!"</p>
+    </aside>
+    </main>
+    <footer>
+    <p>&copy; 2024 Luis Bastus. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

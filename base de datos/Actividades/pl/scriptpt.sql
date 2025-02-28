@@ -1,0 +1,56 @@
+-- SECCIÓN 1: SELECT y WHERE (10 consultas)
+-- Listar todas las películas disponibles
+-- Obtener los nombres y apellidos de los clientes
+-- Películas con duración mayor a 120 minutos
+-- Clientes que viven en "Texas"
+-- Actores con el apellido "Williams"
+-- Películas con clasificación PG-13
+-- Rentas realizadas después del 1 de enero de 2006
+-- Clientes con ID entre 5 y 15
+-- Películas que contienen "Action" en su título
+-- Películas que no están en stock
+
+-- SECCIÓN 2: ORDER BY y FETCH (10 consultas)
+-- Películas más nuevas
+-- Últimos pagos realizados
+-- Clientes ordenados por fecha de creación
+-- Rentas más recientes
+-- actores más antiguos en el sistema
+-- Películas más largas
+-- Películas más cortas
+-- Clientes con más rentas
+-- Top 3 clientes con más gasto en pagos
+-- Últimos 5 pagos realizados en marzo de 2006
+
+-- SECCIÓN 3: GROUP BY y HAVING (10 consultas)
+-- Número de películas por clasificación
+-- Clientes con más de 10 rentas
+-- Ingresos generados por cada empleado
+-- Número de películas por categoría
+-- Media de duración de películas por clasificación
+-- Categorías con más de 50 películas
+-- Clientes con más de $100 gastados
+-- Ciudades con más de 5 clientes
+-- Total de pagos por mes
+-- Actores con más de 10 películas
+
+-- SECCIÓN 4: INNER JOIN, LET JOIN y RIGHT JOIN (10 consultas)
+-- Listar películas con su categoría
+-- Clientes con su dirección
+-- entas con información del cliente
+-- Películas sin categoría asignada
+-- Clientes que nunca han hecho un pago
+-- Clientes que han alquilado una película pero no han hecho pagos
+
+-- SECCIÓN 5:CONSULTAS COMPLEJAS 
+-- Subconsulta con ANY
+-- Subconsulta con EXISTS
+
+-- Película más rentada
+-- Categoría con más películas
+-- Cliente con el mayor gasto total
+-- Películas que nunca han sido rentadas
+-- Clientes que han rentado todas las películas de una categoría específica
+-- Películas con más de 3 actores
+-- Rango de precios de películas por categoría
+-- Actores que han participado en más de 15 películas

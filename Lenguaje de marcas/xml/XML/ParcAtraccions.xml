@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MirAventura>
+    <nom>MirAventura S.A.</nom>
+    <adreca>Passeig de la sort, 1</adreca>
+    <ciutat>Can Puces</ciutat>
+    <pais>Espanya</pais>
+    <lloc_web>http://www.miraventura.com</lloc_web>
+
+
+<atraccions>
+    <zona grup="ESO">
+        <atraccio>
+            <nom>Pati Mission</nom>
+            <serveis passPreferent= "si" accesDiscapacitats="si" fotografia="si" video="si" />
+            <alcada_minima>
+                <acompanyant>1,10m</acompanyant>
+                <noAcompanyant>1,20m</noAcompanyant>
+            </alcada_minima>
+            <intensitat>infantil</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>l'aula misteriosa</nom>
+            <serveis accesDiscapacitats="si" />
+            <intensitat>infantil</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>Magic entrepa</nom>
+            <alcada_minima>
+                <acompanyant>1,30m</acompanyant>
+               <noAcompanyant>1,40m</noAcompanyant>
+            </alcada_minima>    
+            <intensitat>infantil</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>profe-profe</nom>
+            <serveis accesDiscapacitats="si" fotografia="si" />
+            <alcada_minima>
+                <acompanyant>1m</acompanyant>
+                <noAcompanyant>1,30m</noAcompanyant>
+            </alcada_minima>
+            <intensitat>intensitat</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>El salt a la pissarra</nom>
+            <serveis accesDiscapacitats="si" />       
+            <alcada_minima>
+                <acompanyant>0,95m</acompanyant>
+                <noAcompanyant>1,30m</noAcompanyant>
+            </alcada_minima>
+            <intensitat>infantil</intensitat>
+        </atraccio>
+    </zona>  
+    <zona grup="Batxillerat">
+        <atraccio>
+            <nom>Furius Selectivity</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+            <alcada_minima>1,40m</alcada_minima>
+            <alcada_maxima>1,95m</alcada_maxima>
+            <intensitat>forta</intensitat>         
+        </atraccio>
+        <atraccio>
+            <nom>Examen Splash</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" />
+            <alcada_minima>
+                <acompanyat>1,30m</acompanyat>
+                <acompanyat>1,40m</acompanyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>Juny Wave</nom>
+            <alcada_minima>
+                <acompanyat>1,30m</acompanyat>
+                <noacompanyat>1,40m</noacompanyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>EL tren de sortida</nom>
+            <serveis accesDiscapacitats="si" />
+            <intensitat>suau</intensitat>
+        </atraccio>
+    </zona>
+    <zona grup="GM">
+        <atraccio>
+            <nom>Pràctiques River Flume</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" />
+            <alcada_minima>
+                <acompanyat>1,30</acompanyat>
+                <noacompanyat>1,40m</noacompanyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>Dies Festius Rapids</nom>
+            <serveis passPreferent="si" fotografia="si" />
+            <alcada_minima>
+                <acompanyat>1,20m</acompanyat>
+                <noacompanyat>1,30m</noacompanyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>Crazy Credit Sintesis</nom>
+            <serveis accesDiscapacitats="si" />
+            <alcada_minima>
+                <acompanyat>1,20m</acompanyat>
+                <noacompamyat>1,30m</noacompamyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+       </atraccio>
+       <atraccio>
+            <nom>Les canoes del traspas</nom>
+            <serveis accesDiscapacitats="si" />
+            <intensitat>suau</intensitat>
+       </atraccio>
+    </zona>
+    <zona grup="GS">
+        <atraccio>
+            <nom>Dual Khan</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+            <alcada_minima>1,40m</alcada_minima>
+            <alcada_maxima>1,95m</alcada_maxima>
+            <intesitat>forta</intesitat>
+        </atraccio>
+        <atraccio>
+            <nom>Dhambhala</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+            <alcada_minima_>1,40m</alcada_minima_>
+            <intensitat>forta</intensitat>
+        </atraccio>
+        <atraccio>
+             <nom>Project Climbing</nom>
+            <alcada_minima>
+                <acompanyat>1,20m</acompanyat>
+                <noacompanyat>1,20m</noacompanyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio>
+            <nom>Mirkor</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+            <alcada_minima>
+                <acopanyat>1,20m</acopanyat>
+                <noacompanyat>1,30</noacompanyat>
+            </alcada_minima>
+            <intensitat>suau</intensitat>
+        </atraccio>
+    </zona>
+    <zona grup="Profes">
+        <atraccio>
+            <nom>El temple de les notes</nom>
+            <serveis passPreferent="si" accesDiscapacitats="si" />
+            <alcada_minima>
+                <acompanyat>1</acompanyat>
+                <noacompanyat>1,40m</noacompanyat>
+            </alcada_minima>
+            <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio> 
+            <nom>El secret dels alumnes</nom>
+            <intensitat>suau</intensitat>
+        </atraccio>
+        <atraccio> 
+            <nom>Hurakan Mir</nom>
+            <serveis accesDiscapacitats="si" fotografia="si" />
+            <alcada_minima>1,40</alcada_minima>
+            <alcada_maxima>1,95</alcada_maxima>
+            <intensitat>forta</intensitat>
+        </atraccio>
+    </zona>
+</atraccions>
+
+<Espectacles>
+    <Zona nom="ESO">
+        <Espectacle>
+            <Nom>Aloha alumnes</Nom>
+            <PassPreferent>No</PassPreferent>
+            <AccesDiscapacitats>Sí</AccesDiscapacitats>
+            <Horari>11:30, 14:00, 16:00, 17:00 (Cada dia)</Horari>
+            <Tipus>Aventura</Tipus>
+        </Espectacle>
+        <Espectacle>
+            <Nom>Em sento al paradís</Nom>
+            <AccesDiscapacitat>Sí</AccesDiscapacitat>
+            <Horari>
+                13:00, 15:00 (De dilluns a divendres)
+                12:00, 13:30, 15:30 (Dissabtes i diumenges)
+            </Horari>
+            <Tipus>Didàctic</Tipus>
+        </Espectacle>
+    </Zona>
+
+    <Zona nom="GM">
+        <Espectacle>
+            <Nom>CCC©Experience</Nom>
+            <AccesDiscapacitats>Sí</AccesDiscapacitats>
+            <Horari>
+                11:30 a 13:30 i 15:00 a 18:30 (Dissabtes)
+                11:00 a 13:00 i 14:30 a 17:30 (Diumenges)
+            </Horari>
+            <Tipus>Passatge del terror</Tipus>
+        </Espectacle>
+    </Zona>
+
+    <Zona nom="GS">
+        <Espectacle>
+            <Nom>Around the Mir</Nom>
+            <PassPreferent>Sí</PassPreferent>
+            <SeientVIP>Sí</SeientVIP>
+            <AccesDiscapacitats>Sí</AccesDiscapacitats>
+            <Horari>
+                14:00, 16:00 (Dilluns, dimecres, dijous, divendres i diumenges)
+                16:00, 18:00 (Dissabtes)
+            </Horari>
+            <Tipus>Musical</Tipus>
+        </Espectacle>
+    </Zona>
+
+    <Zona nom="Profes">
+        <Espectacle>
+            <Nom>MirParade</Nom>
+            <Horari>20:00 a 22:00 (Dissabtes i Diumenges)</Horari>
+            <Tipus>Desfilada</Tipus>
+        </Espectacle>
+        <Espectacle>
+            <Nom>Apocalipsis COVID</Nom>
+            <PassPreferent>Sí</PassPreferent>
+            <Horari>
+                12:30 a 14:30 i de 16:00 a 18:30 (Dissabtes)
+                11:30 a 13:30 i de 15:00 a 17:00 (Diumenges)
+            </Horari>
+            <Tipus>Passatge del terror</Tipus>
+        </Espectacle>
+    </Zona>
+</Espectacles>
+
+<Restaurants>
+    <Zona nom="ESO">
+        <Restaurant>
+            <Nom>La cuina de l'ESO</Nom>
+            <Servei>Taula i Autoservei</Servei>
+            <MenuEspecial>Infantil</MenuEspecial>
+        </Restaurant>
+    </Zona>
+  
+    <Zona nom="Batxillerat">
+        <Restaurant>
+            <Nom>Aiguaesfera</Nom>
+            <Servei>Taula</Servei>
+            <MenuEspecial>Infantil</MenuEspecial>
+        </Restaurant>
+        <Restaurant>
+            <Nom>Café de primera hora</Nom>
+            <Servei>Autoservei</Servei>
+            <MenuEspecial>No</MenuEspecial>
+        </Restaurant>
+    </Zona>
+  
+    <Zona nom="GS">
+        <Restaurant>
+            <Nom>The Iron student</Nom>
+            <Servei>Taula</Servei>
+            <MenuEspecial>Celíac i Infantil</MenuEspecial>
+        </Restaurant>
+        <Restaurant>
+            <Nom>The new snack house</Nom>
+            <Servei>Autoservei</Servei>
+            <MenuEspecial>Celíac</MenuEspecial>
+        </Restaurant>
+    </Zona>
+  
+    <Zona nom="Profes">
+        <Restaurant>
+            <Nom>Cantina del Mir</Nom>
+            <Servei>Taula</Servei>
+            <MenuEspecial>Celíac i Infantil</MenuEspecial>
+        </Restaurant>
+        <Restaurant>
+            <Nom>Un entrepà express</Nom>
+            <Servei>Autoservei</Servei>
+            <MenuEspecial>Celíac</MenuEspecial>
+        </Restaurant>
+    </Zona>
+  </Restaurants>
+
+
+
+<Botigues>
+    <Zona nom="ESO">
+        <Botiga>
+            <Nom>ESOTenda</Nom>
+            <Productes>Souvenirs</Productes>
+            <ServeiRecollida>Sí</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Fotos Profe-Profe</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Fotos Pati Mission</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+    </Zona>
+
+    <Zona nom="Batxillerat">
+        <Botiga>
+            <Nom>Fotos Furius Selectivity</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Records MirAventura</Nom>
+            <Productes>Souvenirs</Productes>
+            <ServeiRecollida>Sí</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Dolços del mes</Nom>
+            <Productes>Llaminadures</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+    </Zona>
+
+    <Zona nom="GM">
+        <Botiga>
+            <Nom>Fotos Pràctiques River Flume</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Fotos Dies Festius Rapids</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>GM Store</Nom>
+            <Productes>Souvenirs</Productes>
+            <ServeiRecollida>Sí</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>GM Store</Nom>
+            <Productes>Souvenirs</Productes>
+            <ServeiRecollida>Sí</ServeiRecollida>
+        </Botiga>
+    </Zona>
+
+    <Zona nom="GS">
+        <Botiga>
+            <Nom>Fotos Dual Khan</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Fotos Dhambhala</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>GS Palace</Nom>
+            <Productes>Souvenirs</Productes>
+            <ServeiRecollida>Sí</ServeiRecollida>
+        </Botiga>
+    </Zona>
+
+    <Zona nom="Profes">
+        <Botiga>
+            <Nom>Fotos Hurakan Truancy</Nom>
+            <Productes>Fotografies</Productes>
+            <ServeiRecollida>No</ServeiRecollida>
+        </Botiga>
+        <Botiga>
+            <Nom>Hurakan Truancy Shop</Nom>
+            <Productes>Souvenirs</Productes>
+            <ServeiRecollida>Sí</ServeiRecollida>
+        </Botiga>
+    </Zona>
+</Botigues>
+
+<dates>
+    <dates_interes>
+        <data_obertura>2020-07-08</data_obertura>
+        <data_tancament>2021-01-10</data_tancament>
+    </dates_interes>
+</dates>
+
+<Horari>
+    <Mes nom="Juliol">
+        <HorariGeneral>10:00 a 22:00</HorariGeneral>
+    </Mes>
+
+    <Mes nom="Agost">
+        <HorariGeneral>10:00 a 22:00</HorariGeneral>
+    </Mes>
+
+    <Mes nom="Setembre">
+        <HorariPeriode>
+            <Periode>De l'1 al 13 cada dia</Periode>
+            <Horari>10:00 a 22:00</Horari>
+        </HorariPeriode>
+        <HorariEspecial>
+            <Dies>Dissabtes del 14 al 30</Dies>
+            <Horari>10:00 a 22:00</Horari>
+        </HorariEspecial>
+        <HorariPeriode>
+            <Periode>Del 14 al 30 (cada dia menys dissabtes)</Periode>
+            <Horari>10:00 a 20:00</Horari>
+        </HorariPeriode>
+    </Mes>
+
+    <Mes nom="Octubre">
+        <HorariPeriode>
+            <Periode>Cada dia menys dissabtes i el diumenge 11</Periode>
+            <Horari>10:00 a 20:00</Horari>
+        </HorariPeriode>
+        <HorariEspecial>
+            <Dies>Dissabtes i el diumenge 11</Dies>
+            <Horari>10:00 a 22:00</Horari>
+        </HorariEspecial>
+    </Mes>
+
+    <Mes nom="Novembre">
+        <HorariEspecial>
+            <Dies>Dissabte 7 i 14</Dies>
+            <Horari>10:00 a 22:00</Horari>
+        </HorariEspecial>
+        <HorariPeriode>
+            <Periode>Dissabtes i diumenges</Periode>
+            <Horari>10:00 a 18:00</Horari>
+        </HorariPeriode>
+        <Tancat>De dilluns a divendres</Tancat>
+    </Mes>
+
+    <Mes nom="Desembre">
+        <HorariEspecial>
+            <Dies>Tots els dissabtes i diumenges, dilluns 7, dimarts 8, del 21 al 25, del 28 al 31</Dies>
+            <Horari>10:00 a 18:00</Horari>
+        </HorariEspecial>
+    </Mes>
+</Horari>
+
+</MirAventura>
+
+
+
+    

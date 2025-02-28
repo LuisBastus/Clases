@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+  <plat>
+    <nom>Paella</nom>
+    <descripcio>Arròs amb marisc tradicional</descripcio>
+    <ingredients>
+      <ingredient>Arròs</ingredient>
+      <ingredient>Gambes</ingredient>
+      <ingredient>Musclos</ingredient>
+    </ingredients>
+    <tipus>
+      <carnívor>true</carnívor>
+    </tipus>
+    <al·lergens>
+      <gluten>false</gluten>
+      <lactosa>false</lactosa>
+      <fruits_secs>false</fruits_secs>
+    </al·lergens>
+  </plat>
+
+  <plat>
+    <nom>Hamburguesa Vegetariana</nom>
+    <ingredients>
+      <ingredient>Soy</ingredient>
+      <ingredient>Enciam</ingredient>
+      <ingredient>Tomàquet</ingredient>
+    </ingredients>
+    <tipus>
+      <vegetarià>true</vegetarià>
+    </tipus>
+  </plat>
+
+  <plat>
+    <nom>Ensalada vegana</nom>
+    <descripcio>Ensalada fresca sense productes d'origen animal</descripcio>
+    <ingredients>
+      <ingredient>Enciam</ingredient>
+      <ingredient>Tomàquet</ingredient>
+      <ingredient>Cogombre</ingredient>
+    </ingredients>
+    <tipus>
+      <vegà>true</vegà>
+    </tipus>
+    <al·lergens>
+      <gluten>false</gluten>
+      <lactosa>false</lactosa>
+      <fruits_secs>true</fruits_secs>
+    </al·lergens>
+  </plat>
+</menu>

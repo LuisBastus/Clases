@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Arxiu XML que conté la informació del parc d'atraccions MirAventura -->
+
+<parc_d_atraccions nom="MirAventura S.A." adreca="Passeig de la sort, 1" ciutat="Can Puces" pais="Espanya" web="http://www.miraventura.com">
+
+  <!-- Secció d'atraccions del parc -->
+  <atraccions>
+    <atraccio nom="Pati Mission" zona="ESO" passPreferent="sí" accesDiscapacitats="sí" fotografia="sí" video="sí">
+      <alcada_minima>1.10</alcada_minima>
+      <alcada_maxima>1.20</alcada_maxima>
+      <intensitat>infantil</intensitat>
+    </atraccio>
+
+    <atraccio nom="Furius Selectivity" zona="Batxillerat" passPreferent="sí" accesDiscapacitats="sí" fotografia="sí" video="sí">
+      <alcada_minima>1.40</alcada_minima>
+      <alcada_maxima>1.95</alcada_maxima>
+      <intensitat>forta</intensitat>
+    </atraccio>
+
+    <atraccio nom="Examen Splash" zona="Batxillerat" passPreferent="no" accesDiscapacitats="sí" fotografia="sí" video="no">
+      <alcada_minima>1.30</alcada_minima>
+      <alcada_maxima>1.40</alcada_maxima>
+      <intensitat>moderada</intensitat>
+    </atraccio>
+
+    <atraccio nom="Dual Khan" zona="GS" passPreferent="sí" accesDiscapacitats="sí" fotografia="sí" video="sí">
+      <alcada_minima>1.40</alcada_minima>
+      <alcada_maxima>1.95</alcada_maxima>
+      <intensitat>forta</intensitat>
+    </atraccio>
+
+    <!-- Continuació amb la resta d'atraccions... -->
+  </atraccions>
+
+  <!-- Secció d'espectacles del parc -->
+  <espectacles>
+    <espectacle nom="Aloha alumnes" zona="ESO" passPreferent="sí" accesDiscapacitats="sí" tipus="aventura">
+      <horari>11:30, 14:00, 16:00, 17:00</horari>
+    </espectacle>
+
+    <espectacle nom="Around the Mir" zona="GS" passPreferent="sí" accesDiscapacitats="sí" tipus="musical" seientVIP="sí">
+      <horari>14:00, 16:00</horari>
+    </espectacle>
+
+    <espectacle nom="Apocalipsis COVID" zona="Profes" passPreferent="no" accesDiscapacitats="sí" tipus="passatge del terror">
+      <horari>12:30 a 14:30, 16:00 a 18:30 (Dissabtes), 11:30 a 13:30, 15:00 a 17:00 (Diumenges)</horari>
+    </espectacle>
+
+    <!-- Continuació amb la resta d'espectacles... -->
+  </espectacles>
+
+  <!-- Secció de restaurants del parc -->
+  <restaurants>
+    <restaurant nom="La cuina de l’ESO" zona="ESO" servei="taula i autoservei">
+      <menu_especial>infantil</menu_especial>
+    </restaurant>
+
+    <restaurant nom="The Iron student" zona="GS" servei="taula">
+      <menu_especial>celíac</menu_especial>
+      <menu_especial>infantil</menu_especial>
+    </restaurant>
+
+    <restaurant nom="Cantina del Mir" zona="Profes" servei="taula">
+      <menu_especial>celíac</menu_especial>
+      <menu_especial>infantil</menu_especial>
+    </restaurant>
+
+    <!-- Continuació amb la resta de restaurants... -->
+  </restaurants>
+
+  <!-- Secció de botigues del parc -->
+  <botigues>
+    <botiga nom="ESOTenda" zona="ESO" servei_recollida="sí">
+      <producte>souvenirs</producte>
+    </botiga>
+
+    <botiga nom="Fotos Furius Selectivity" zona="Batxillerat" servei_recollida="no">
+      <producte>fotografies</producte>
+    </botiga>
+
+    <botiga nom="Hurakan Truancy Shop" zona="Profes" servei_recollida="sí">
+      <producte>souvenirs</producte>
+    </botiga>
+
+    <!-- Continuació amb la resta de botigues... -->
+  </botigues>
+
+  <!-- Dates d'interès -->
+  <dates_interes>
+    <data_obertura>08/07/2020</data_obertura>
+    <data_tancament>10/01/2021</data_tancament>
+  </dates_interes>
+
+  <!-- Horaris del parc -->
+  <horaris>
+    <horari mes="Juliol" dies="tots" hora_inici="10:00" hora_final="22:00" />
+    <horari mes="Agost" dies="tots" hora_inici="10:00" hora_final="22:00" />
+    <horari mes="Setembre" dies="1-13" hora_inici="10:00" hora_final="22:00" />
+    <horari mes="Setembre" dies="14-30 (dissabtes)" hora_inici="10:00" hora_final="22:00" />
+    <horari mes="Setembre" dies="14-30 (no dissabtes)" hora_inici="10:00" hora_final="20:00" />
+    <horari mes="Octubre" dies="no dissabtes ni 11" hora_inici="10:00" hora_final="20:00" />
+    <horari mes="Octubre" dies="dissabtes i 11" hora_inici="10:00" hora_final="22:00" />
+    <horari mes="Novembre" dies="7, 14 (dissabtes)" hora_inici="10:00" hora_final="22:00" />
+    <horari mes="Novembre" dies="dissabtes i diumenges" hora_inici="10:00" hora_final="18:00" />
+    <horari mes="Novembre" dies="dilluns-divendres" hora_inici="tancat" />
+    <horari mes="Desembre" dies="dissabtes i diumenges, 7, 8, 21-25, 28-31" hora_inici="10:00" hora_final="18:00" />
+  </horaris>
+
+</parc_d_atraccions>
+

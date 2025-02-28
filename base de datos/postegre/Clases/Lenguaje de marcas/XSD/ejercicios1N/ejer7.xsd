@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="menu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="plat" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+     
+              <xs:element name="nom" type="xs:string"/>
+ 
+              <xs:element name="descripcio" type="xs:string" minOccurs="0"/>
+        
+              <xs:element name="ingredients">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ingredient" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="tipus">
+                <xs:complexType>
+                  <xs:choice>
+                    <xs:element name="vegetarià" type="xs:boolean"/>
+                    <xs:element name="vegà" type="xs:boolean"/>
+                    <xs:element name="carnívor" type="xs:boolean"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="al·lergens" minOccurs="0">
+                <xs:complexType>
+                  <xs:all>
+                    <xs:element name="gluten" type="xs:boolean" minOccurs="0"/>
+                    <xs:element name="lactosa" type="xs:boolean" minOccurs="0"/>
+                    <xs:element name="fruits_secs" type="xs:boolean" minOccurs="0"/>
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

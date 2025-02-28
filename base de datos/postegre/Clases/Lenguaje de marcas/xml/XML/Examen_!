@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda nombre="VNGRecordStore">
+     <discos>
+         <titulo nom="pensarte">
+             <año>1989</año>
+             <orquesta>internacional</orquesta>
+                 <director>juan</director>
+             <precio>25$</precio>
+             <formato>LP</formato>
+         </titulo>
+         <titulo nom="luna_linda">
+             <año>1978</año>
+             <orquesta>bella</orquesta>
+                 <director>jose</director>
+             <precio>35$</precio>
+             <formato>CD</formato>
+         </titulo>      
+         <titulo nom="solsticio">
+             <año>2003</año>
+             <orquesta>española</orquesta>
+                 <director>luis</director>
+             <precio>20$</precio>
+             <formato>CD</formato>
+         </titulo>  
+         <titulo nom="profundidad">
+             <año>2004</año>
+             <orquesta>filarmonic</orquesta>
+                 <director>federico</director>
+             <precio>25$</precio>
+             <formato>LP</formato>
+         </titulo>
+         <titulo nom="cielo">
+             <años>1998</años>
+             <orquesta>catalana</orquesta>
+                 <director>joan</director>
+                 <precio>45$</precio>
+                 <formato>CD</formato>
+         </titulo>
+     </discos>
+     <compositores>
+         <compositor comp="juan">
+             <nacionalidad>francesa</nacionalidad>
+             <discografica>warner</discografica>
+         </compositor>
+         <compositor comp="jose">
+             <nacionalidad>española</nacionalidad>
+             <discografica>warner</discografica>
+         </compositor>
+         <compositor comp="luis">
+             <nacionalidad>española</nacionalidad>
+             <discografica>mirdisc</discografica>
+         </compositor>
+         <compositor comp="federico">
+             <nacionalidad>colombiana</nacionalidad>
+             <discografica>warner</discografica>
+         </compositor>
+         <compositor comp="joan">
+             <nacionalidad>española</nacionalidad>
+             <discografica>VNGdisc</discografica>
+         </compositor>
+         <compositor comp="alexander">
+            <nacionalidad>mexicana</nacionalidad>
+            <discografica>VNGdisc</discografica>
+         </compositor>
+         <compositor comp="pavarotti">
+            <nacionalidad>italiana</nacionalidad>
+            <discografica>domisc</discografica>
+        </compositor>
+     </compositores>
+     <discograficas>
+         <discografica disc="mirdisc">
+             <pais>españa</pais>
+         </discografica>
+         <discografica disc="warner">
+             <pais>EU</pais>
+         </discografica>
+         <discografica disc="VNGdisc">
+             <pais>españa</pais>
+         </discografica>
+         <discografica disc="domisc">
+             <pais>francia</pais>
+         </discografica>
+         <discografica disc="ludisc">
+             <pais>Venezuela</pais>
+         </discografica>
+         <discografica disc="cardisc">
+             <pais>italia</pais>
+         </discografica>
+     </discograficas>   
+</tienda>

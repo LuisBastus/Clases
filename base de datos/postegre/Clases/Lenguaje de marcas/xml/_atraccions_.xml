@@ -1,0 +1,169 @@
+<atraccions>
+     <zona grup="ESO">
+         <atraccio>
+             <nom>Pati Mission</nom>
+             <serveis passPreferent= "si" accesDiscapacitats="si" fotografia="si" video="si" />
+             <alcada_minima>
+                 <acompanyant>1,10m</acompanyant>
+                 <noAcompanyant>1,20m</noAcompanyant>
+             </alcada_minima>
+             <intensitat>infantil</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>l'aula misteriosa</nom>
+             <serveis accesDiscapacitats="si" />
+             <intensitat>infantil</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>Magic entrepa</nom>
+             <alcada_minima>
+                 <acompanyant>1,30m</acompanyant>
+                <noAcompanyant>1,40m</noAcompanyant>
+             </alcada_minima>    
+             <intensitat>infantil</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>profe-profe</nom>
+             <serveis accesDiscapacitats="si" fotografia="si" />
+             <alcada_minima>
+                 <acompanyant>1m</acompanyant>
+                 <noAcompanyant>1,30m</noAcompanyant>
+             </alcada_minima>
+             <intensitat>intensitat</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>El salt a la pissarra</nom>
+             <serveis accesDiscapacitats="si" />       
+             <alcada_minima>
+                 <acompanyant>0,95m</acompanyant>
+                 <noAcompanyant>1,30m</noAcompanyant>
+             </alcada_minima>
+             <intensitat>infantil</intensitat>
+         </atraccio>
+     </zona>  
+     <zona grup="Batxillerat">
+         <atraccio>
+             <nom>Furius Selectivity</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+             <alcada_minima>1,40m</alcada_minima>
+             <alcada_maxima>1,95m</alcada_maxima>
+             <intensitat>forta</intensitat>         
+         </atraccio>
+         <atraccio>
+             <nom>Examen Splash</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" />
+             <alcada_minima>
+                 <acompanyat>1,30m</acompanyat>
+                 <acompanyat>1,40m</acompanyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>Juny Wave</nom>
+             <alcada_minima>
+                 <acompanyat>1,30m</acompanyat>
+                 <noacompanyat>1,40m</noacompanyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>EL tren de sortida</nom>
+             <serveis accesDiscapacitats="si" />
+             <intensitat>suau</intensitat>
+         </atraccio>
+     </zona>
+     <zona grup="GM">
+         <atraccio>
+             <nom>Pràctiques River Flume</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" />
+             <alcada_minima>
+                 <acompanyat>1,30</acompanyat>
+                 <noacompanyat>1,40m</noacompanyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>Dies Festius Rapids</nom>
+             <serveis passPreferent="si" fotografia="si" />
+             <alcada_minima>
+                 <acompanyat>1,20m</acompanyat>
+                 <noacompanyat>1,30m</noacompanyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>Crazy Credit Sintesis</nom>
+             <serveis accesDiscapacitats="si" />
+             <alcada_minima>
+                 <acompanyat>1,20m</acompanyat>
+                 <noacompamyat>1,30m</noacompamyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+        </atraccio>
+        <atraccio>
+             <nom>Les canoes del traspas</nom>
+             <serveis accesDiscapacitats="si" />
+             <intensitat>suau</intensitat>
+        </atraccio>
+     </zona>
+     <zona grup="GS">
+         <atraccio>
+             <nom>Dual Khan</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+             <alcada_minima>1,40m</alcada_minima>
+             <alcada_maxima>1,95m</alcada_maxima>
+             <intesitat>forta</intesitat>
+         </atraccio>
+         <atraccio>
+             <nom>Dhambhala</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+             <alcada_minima_>1,40m</alcada_minima_>
+             <intensitat>forta</intensitat>
+         </atraccio>
+         <atraccio>
+              <nom>Project Climbing</nom>
+             <alcada_minima>
+                 <acompanyat>1,20m</acompanyat>
+                 <noacompanyat>1,20m</noacompanyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+         </atraccio>
+         <atraccio>
+             <nom>Mirkor</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" fotografia="si" video="si" />
+             <alcada_minima>
+                 <acopanyat>1,20m</acopanyat>
+                 <noacompanyat>1,30</noacompanyat>
+             </alcada_minima>
+             <intensitat>suau</intensitat>
+         </atraccio>
+     </zona>
+     <zona grup="Profes">
+         <atraccio>
+             <nom>El temple de les notes</nom>
+             <serveis passPreferent="si" accesDiscapacitats="si" />
+             <alcada_minima>
+                 <acompanyat>1</acompanyat>
+                 <noacompanyat>1,40m</noacompanyat>
+             </alcada_minima>
+             <intensitat>moderada</intensitat>
+         </atraccio>
+         <atraccio> 
+             <nom>El secret dels alumnes</nom>
+             <intensitat>suau</intensitat>
+         </atraccio>
+         <atraccio> 
+             <nom>Hurakan Mir</nom>
+             <serveis accesDiscapacitats="si" fotografia="si" />
+             <alcada_minima>1,40</alcada_minima>
+             <alcada_maxima>1,95</alcada_maxima>
+             <intensitat>forta</intensitat>
+         </atraccio>
+     </zona>
+</atraccions>
+    
+
+
+
+
+     

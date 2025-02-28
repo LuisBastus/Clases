@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estil.css"?>
+<alumnes>
+    <alumne>
+        <nom>Marc</nom>
+        <cognom>Màrquez</cognom>
+    </alumne>
+    <alumne>
+        <nom>Fernando</nom>
+        <cognom>Alonso</cognom>
+    </alumne>
+    <alumne>
+        <nom>Pau</nom>
+        <cognom>Gasol</cognom>
+    </alumne>
+</alumnes>

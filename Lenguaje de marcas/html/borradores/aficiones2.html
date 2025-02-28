@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Mi Galería de Imágenes</h1>
+        <p>Bienvenido a mi galería personal. Aquí encontrarás imágenes relacionadas con mis intereses y pasiones.</p>
+    </header>
+    <main class="gallery-container">
+        <div class="gallery-item"><img src="imagenes2/futebol.jpg" alt="Futbol"></div>
+        <div class="gallery-item"><img src="imagen2.jpg" alt="Descripción de la imagen 2"></div>
+        <div class="gallery-item"><img src="imagen3.jpg" alt="Descripción de la imagen 3"></div>
+        <div class="gallery-item"><img src="imagen4.jpg" alt="Descripción de la imagen 4"></div>
+        <div class="gallery-item"><img src="imagen5.jpg" alt="Descripción de la imagen 5"></div>
+        <div class="gallery-item"><img src="imagen6.jpg" alt="Descripción de la imagen 6"></div>
+    </main>
+    <aside>
+        <p>"Este sitio web está en construcción. ¡Gracias por visitarlo!"</p>
+    </aside>
+    </main>
+    
+    <footer>
+    <p>&copy; 2024 Luis Bastus. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

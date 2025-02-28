@@ -1,0 +1,23 @@
+name: postgres
+services:
+  db:
+    container_name: psql_cluster_practice
+    image: postgres
+    restart: always
+    # set shared memory limit when using docker-compose
+    shm_size: 128mb
+    env_file: ./dbCredentials.env
+    volumes:
+        - ${PWD}/my_data:/my_data
+    ports:
+        - '5432:5432'
+    
+  pgadmin4:
+      image: elestio/pgadmin:latest
+      restart: always
+      env_file: ./dbCredentials.env
+      ports:
+        - "8080:8080"
+      # volumes:
+      # - ./servers.json:/pgadmin4/servers.json
+      
