@@ -29,6 +29,15 @@ END $$;
     
     -- Mostrar el título de la película
 
+DO $$
+DECLARE
+    film_title film.title%TYPE; -- Usa %TYPE para copiar el tipo de dato de film.title
+BEGIN
+    SELECT title INTO film_title
+    FROM film
+    WHERE film_id = 50;
+    RAISE NOTICE 'El título de la película es: %', film_title;
+END $$;
 
 -- Ejercicio 3: Uso del Ámbito de Variables en Bloques
 -- Comprender el ámbito de las variables dentro de bloques anidados.
