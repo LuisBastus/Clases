@@ -7,15 +7,16 @@
     -- Asignar el nombre del cliente con ID 5
     
     -- Mostrar el nombre del cliente
+
 DO $$
 DECLARE 
-   customer_name 
+    customer_name VARCHAR(255); 
 BEGIN 
-   SELECT first_name INTO customer_name
-   FROM customer
-   WHERE customer_id = 5;
-   RAISE NOTICE 'El nombre del cliente es %', customer_name;
-END $$; 
+    SELECT first_name INTO customer_name
+    FROM customer
+    WHERE customer_id = 5;
+    RAISE NOTICE 'El nombre del cliente es %', customer_name;
+END $$;
 
 -- Ejercicio 2: Uso de %TYPE para Copiar Tipos de Datos
 -- Usar %TYPE para definir variables basadas en columnas de una tabla.
@@ -114,3 +115,21 @@ END $$;
 
 
     -- Verificar si la edad es menor a 18
+
+--CASE
+-------------------------------------
+-- Dos casos poniendo CASE  variable y los casos seguidos para evaluar esa variable, o CASE y abajo varias condiciones en el WHEN
+---
+-- EJ1 -- 
+-- Dentro de un IF que asegure que la pelicula existe crea un CASE que guarde en una variable category la categoría de su duración de alquiler.
+-- indicando si el período de alquiler (rental_duration) es 
+-- corto (1-3 días), medio (4-6 días) o largo (7 días o más).
+-- Al final muestra un mensaje que diga el nombre de la pelicula y su categoria
+
+
+-- EJ2--
+-- Dentro de un IF que asegure que la pelicula existe crea un CASE que guarde en una variable category la categoría de la duración de una pelicula.
+-- indicando si el período de alquiler (rental_duration) es 
+-- Corta: menos de 90 minutos, Media: entre 90 y 120 minutos (inclusive) o Larga: más de 120 minutos.
+-- Al final Mostrar un mensaje con el título de la película y su clasificación.
+-- Si la película no existe, mostrar un mensaje indicando que no se encontró.
