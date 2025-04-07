@@ -1,0 +1,44 @@
+<repositoriDeMusica>
+  <album id="A1">
+    <titol>Ok Computer</titol>
+    <artista>Radiohead</artista>
+    <anyPublicacio>1997</anyPublicacio>
+    <cancons>
+      <canco durada="4:21">Airbag</canco>
+      <canco durada="4:44">Paranoid Android</canco>
+      <canco durada="3:59">Subterranean Homesick Alien</canco>
+    </cancons>
+    <preu moneda="EUR">9.99</preu>
+  </album>
+  
+  <album id="A2">
+    <titol>Nevermind</titol>
+    <artista>Nirvana</artista>
+    <anyPublicacio>1991</anyPublicacio>
+    <cancons>
+      <canco durada="2:27">Smells Like Teen Spirit</canco>
+      <canco durada="4:39">In Bloom</canco>
+      <canco durada="3:50">Come As You Are</canco>
+    </cancons>
+    <preu moneda="USD">12.50</preu>
+  </album>
+  
+  <album id="A3">
+    <titol>The Dark Side of the Moon</titol>
+    <artista>Pink Floyd</artista>
+    <anyPublicacio>1973</anyPublicacio>
+    <cancons>
+      <canco durada="3:57">Speak to Me</canco>
+      <canco durada="2:49">Breathe</canco>
+      <canco durada="7:04">Time</canco>
+    </cancons>
+    <preu moneda="EUR">11.00</preu>
+  </album>
+  
+  <single id="S1">
+    <titol>Hey Jude</titol>
+    <artista>The Beatles</artista>
+    <anyPublicacio>1968</anyPublicacio>
+    <preu moneda="EUR">3.50</preu>
+  </single>
+</repositoriDeMusica>
