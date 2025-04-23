@@ -1,5 +1,5 @@
 <repositoriDeMusica>
-  <album id="A1">
+  <album id="albumA1">
     <titol>Ok Computer</titol>
     <artista>Radiohead</artista>
     <anyPublicacio>1997</anyPublicacio>
